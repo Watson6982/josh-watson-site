@@ -1,8 +1,9 @@
-const express = require('express');
-const helmet = require('helmet');
-const bodyParser = require('body-parser');
-const expressNunjucks = require('express-nunjucks');
-const cookieParser = require('cookie-parser');
+var express = require('express');
+var nunjucks = require('nunjucks');
+var expressNunjucks = require('express-nunjucks');
+var helmet = require('helmet');
+var bodyParser = require('body-parser');
+var cookieParser = require('cookie-parser');
 
 // routes files
 var routes = require('./routes/site.js');
