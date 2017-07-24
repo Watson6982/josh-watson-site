@@ -1,0 +1,24 @@
+{
+  "name": "josh-watson-site",
+  "version": "1.0.0",
+  "description": "Project: build a personal site to display skills, certifications and interests.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Watson6982/josh-watson-site.git"
+  },
+  "keywords": [
+    "josh",
+    "watson",
+    "site"
+  ],
+  "author": "josh watson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Watson6982/josh-watson-site/issues"
+  },
+  "homepage": "https://github.com/Watson6982/josh-watson-site#readme"
+}
