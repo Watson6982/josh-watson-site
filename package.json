@@ -20,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/Watson6982/josh-watson-site/issues"
   },
-  "homepage": "https://github.com/Watson6982/josh-watson-site#readme"
+  "homepage": "https://github.com/Watson6982/josh-watson-site#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "express-nunjucks": "^2.2.3",
+    "helmet": "^3.8.0",
+    "nunjucks": "^3.0.1"
+  }
 }
