@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Josh Watson">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{% if title %}{{title}} | {% endif %}Josh Watson </title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    {% include "header.html" %}
+    <!-- END HEADER -->
+
+    <!-- MAIN CONTENT -->
+    {% block mainContent %}
+    default Content
+    {% endblock %}
+    <!-- END MAIN CONTENT -->
+
+    <!-- FOOTER -->
+    {% include "footer.html" %}
+    <!-- END FOOTER -->
+  </body>
+</html>
