@@ -1,6 +1,6 @@
 
 function openNav() {
-    document.getElementById("myNav").style.width = "50%";
+    document.getElementById("myNav").style.width = "auto";
 }
 
 /* Close when someone clicks on the "x" symbol inside the overlay */
