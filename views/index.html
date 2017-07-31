@@ -1,6 +1,17 @@
 {% extends "parent.html" %}
 {% block mainContent %}
-    <p> loading body </p>
+<div class="w3-content w3-margin-top" style="max-width:1400px;"> <!-- Page Container -->
+    <div class="w3-row-padding"> <!-- The Grid -->
+        <div class="w3-quarter"> <!-- Left Column -->
+            {% include "profile.html" %}
+        </div> <!-- End Left Column -->
+        <div class="w3-threequarter"> <!-- Right Column -->
+            {% include "career.html" %}
+            {% include "education.html" %}
+            {% include "skillset.html" %}
+        </div> <!-- End Right Column -->
+    </div> <!-- End Grid -->
+</div> <!-- End Page Container -->
 {% endblock %}
 
 
