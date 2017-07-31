@@ -1,1 +1,27 @@
-<p> loading header </p>
+<header>
+
+    <!-- PROFILE -->
+    {% include "profile.html" %}
+    <!-- END PROFILE -->
+
+    <!-- NAV -->
+    {% include "nav.html" %}
+    <!-- END NAV -->
+
+    <div id="jw-header">
+        <!-- Use any element to open/show the overlay profile -->  
+        <div>
+            <span onclick="openProfile()">
+                <i class="fa fa-user-circle-o w3-xxxlarge" aria-hidden="true"></i>
+            </span>
+        </div>
+
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <div>
+            <span onclick="openNav()">
+                <i class="fa fa-bars w3-xxxlarge"aria-hidden="true"></i>
+            </span>
+        </div>
+    </div>
+  
+</header>
