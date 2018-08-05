@@ -1,19 +1,29 @@
-function openJSGoals() {
-    document.getElementById("learningJS").style.display = "block";
+function classJSToggle() {
+    document.getElementById("JSList").classList.toggle('displayList');
+    document.getElementById("JSList").classList.toggle('hideList');
 }
+document.querySelector('#learningJS').addEventListener('click', classJSToggle);
 
-function openDBGoals() {
-    document.getElementById("learningDB").style.display = "block";
+function classDBToggle() {
+    document.getElementById("DBList").classList.toggle('displayList');
+    document.getElementById("DBList").classList.toggle('hideList');
 }
+document.querySelector('#learningDB').addEventListener('click', classDBToggle);
 
-function openHTTPGoals() {
-    document.getElementById("learningHTTP").style.display = "block";
+function classHTTPToggle() {
+    document.getElementById("HTTPList").classList.toggle('displayList');
+    document.getElementById("HTTPList").classList.toggle('hideList');
 }
+document.querySelector('#learningHTTP').addEventListener('click', classHTTPToggle);
 
-function openWebGoals() {
-    document.getElementById("learningWeb").style.display = "block";
+function classWebToggle() {
+    document.getElementById("WebList").classList.toggle('displayList');
+    document.getElementById("WebList").classList.toggle('hideList');
 }
+document.querySelector('#learningWeb').addEventListener('click', classWebToggle);
 
-function closeNav() {
-    document.getElementById("learningList").style.display = "none";
-}
+//document.querySelector('#learningGoals').addEventListener('click', classToggle);
+
+// function closeNav() {
+//     document.getElementById("learningList").style.display = "none";
+// }

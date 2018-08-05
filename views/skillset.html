@@ -25,11 +25,11 @@
         <h6 class="">
             <em class="fa fa-pencil fa-fw w3-margin-right w3-text-teal " aria-hidden="true"></em>
             <strong>Learning goals</strong>
-            <button class="w3-button" onclick="openJSGoals()">
+            <button class="w3-button" id="learningJS">
                 <em class="fa fa-plus fa-fw w3-text-teal " aria-hidden="true"></em>
             </button>
         </h6> 
-        <ul id="learningJS" style="display: none;">
+        <ul id="JSList" class="hideList">
             <li>Understand important language features such as functional composition, prototypal inheritance, closures, event delegation, scope, higher-order functions.</li>
             <li>Understand how to properly structure your code and modularize parts of it, using tools such as webpack, browserify, or build tools such as gulp.</li>
             <li>Master the basics of how to use at least one popular framework (e.g. React or AngularJS) </li>
@@ -59,11 +59,11 @@
         <h6 class="">
             <em class="fa fa-pencil fa-fw w3-margin-right w3-text-teal " aria-hidden="true"></em>
             <strong>Learning goals</strong>
-            <button class="w3-button" onclick="openDBGoals()">
+            <button class="w3-button" id="learningDB">
                 <em class="fa fa-plus fa-fw w3-text-teal " aria-hidden="true"></em>
             </button>
         </h6> 
-        <ul id="learningDB" style="display: none;">
+        <ul id="DBList" class="hideList">
             <li>Understand the benefits of in-memory data stores (e.g Redis)</li>
             <li>Scaling databases for sustainability and efficiency</li>
         </ul>
@@ -80,11 +80,11 @@
         <h6 class="">
             <em class="fa fa-pencil fa-fw w3-margin-right w3-text-teal " aria-hidden="true"></em>
             <strong>Learning goals</strong>
-            <button class="w3-button" onclick="openHTTPGoals()">
+            <button class="w3-button" id="learningHTTP">
                 <em class="fa fa-plus fa-fw w3-text-teal " aria-hidden="true"></em>
             </button>
         </h6> 
-        <ul id="learningHTTP" style="display: none;">
+        <ul id="HTTPList" class="hideList">
             <li>Best practices for designing a RESTful API. POST/GET requests</li>
             <li>HTTP/2 & SPDY</li>
             <li>WebSockets</li>
@@ -103,11 +103,11 @@
         <h6 class="">
             <em class="fa fa-pencil fa-fw w3-margin-right w3-text-teal " aria-hidden="true"></em>
             <strong>Learning goals</strong>
-            <button class="w3-button" onclick="openWebGoals()">
+            <button class="w3-button" id="learningWeb">
                 <em class="fa fa-plus fa-fw w3-text-teal " aria-hidden="true"></em>
             </button>
         </h6> 
-        <ul id="learningWeb" style="display: none;">
+        <ul id="WebList" class="hideList">
             <li>Designing Web Applications by Microsoft ASP.NET with C#</li>
             <li>Advanced understanding of architecture patterns (e.g. MVC)</li>
         </ul>
@@ -115,7 +115,7 @@
     </div>
 
     <div class="w3-container"> <!-- Version -->
-        <h5 class="w3-opacity"><strong>Version Control</strong></h5>
+        <h5 class="w3-opacity"><strong>Version control</strong></h5>
         <ul>
             <li>Familiar with version control (e.g. Git)</li>
             <li>Familiar with subversion control (e.g. Outsystems)</li>
@@ -125,7 +125,7 @@
     </div>
 
     <div class="w3-container"> <!-- Low code solutions -->
-        <h5 class="w3-opacity"><strong>Low Code Solutions</strong></h5>
+        <h5 class="w3-opacity"><strong>Low code solutions</strong></h5>
         <ul>
             <li>Familiar with a range of low code systems (e.g. MATS, Outsystems)</li>
             <li>Experience building sustainable enterprise level solutions</li>
