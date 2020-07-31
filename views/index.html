@@ -1,17 +1,20 @@
 {% extends "parent.html" %}
 {% block mainContent %}
-<div class="w3-content w3-margin-top"> <!-- Page Container -->
-    <div class="w3-row-padding"> <!-- The Grid -->
-        <div class="w3-quarter"> <!-- Left Column -->
+<div class="w3-content w3-margin-top">
+    <!-- Page Container -->
+    <div class="w3-row-padding">
+        <!-- The Grid -->
+        <div class="w3-quarter">
+            <!-- Left Column -->
             {% include "profile.html" %}
         </div> <!-- End Left Column -->
-        <div class="w3-threequarter"> <!-- Right Column -->
+        <div class="w3-threequarter">
+            <!-- Right Column -->
+            {% include "achievements.html" %}
             {% include "career.html" %}
+            {% include "volunteer.html" %}
             {% include "education.html" %}
-            {% include "skillset.html" %}
         </div> <!-- End Right Column -->
     </div> <!-- End Grid -->
 </div> <!-- End Page Container -->
 {% endblock %}
-
-
